@@ -64,15 +64,17 @@ body {
   background: url(images/main-bg.jpg) no-repeat center center fixed;
   background-size: cover;
   text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  color: #222;
 }
 
 .weather-container {
   position: relative;
-  height: 65vh;
-  width: 40%;
+  height: 400px;
+  width: 350px;
   background-color: white;
   border-radius: 10px;
-  margin: 100px auto;
+  margin: 150px auto;
 }
 
 .location {
@@ -87,7 +89,7 @@ body {
 
 .temperature {
   font-size: 5em;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .button-container {
